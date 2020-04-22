@@ -123,7 +123,7 @@ async function collectIceCandidates(roomRef, peerConneciton,
   })
 }
 
-function joinRoom() {
+async function joinRoom() {
   document.querySelector('#createBtn').disabled = true;
   document.querySelector('#joinBtn').disabled = true;
 
